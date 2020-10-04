@@ -9,15 +9,24 @@ nav{
     align-items: center;
     min-height: 8vh;
     color: #695b8f;
+    
     background-color:rgb(210, 234, 238);
     font-family: 'Noto Sans', sans-serif;
+    position: fixed;
+    top:0;
+  width: 100%;
 }
 .logo{
-    font-size: 24px;
-    letter-spacing: 2px;
     border: #695b8f solid;
     background-color:#dcbedf;
     padding: 5px 7px 5px 7px;
+}
+.logo h4{
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    
+
 }
 .logo a{
     text-decoration: none;
@@ -29,7 +38,7 @@ nav{
     display: flex;
     width:60%;
     justify-content: space-around;
-    font-size: 22px;
+    font-size: 16px;
     list-style-type: none;
     
 }
@@ -52,11 +61,11 @@ nav{
     width: 60%;
     display: block;
     margin: 0px auto;
-    margin-top: 40px;
+    margin-top: 80px;
     padding: 20px 10px;
-    font-size: 22px;
+    font-size: 16px;
     font-family: 'Noto Sans', sans-serif;
-    line-height: 36px;
+    line-height: 22px;
     color:#d64fe2;
     background-color:rgb(210, 234, 238);
 
@@ -78,15 +87,15 @@ margin-bottom: 60px;
 }
 
 p{
-    font-size: 22px;
-    line-height: 36px;
+    font-size: 16px;
+    line-height: 28px;
 }
 
 .para h2
 {
     font-family: 'Noto Sans', sans-serif;
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 20px;
+    line-height: 28px;
     font-weight: 700;
     text-align: center;
     padding: 15px 0;
@@ -101,7 +110,7 @@ p{
     background-color:rgb(210, 234, 238);
 }
 .contact-ankita{
-    margin: 40px 0px;
+    
     padding: 40px 0px;
 }
 .list-contacts{
@@ -114,15 +123,15 @@ p{
 .label{
     color: #695b8f;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 22px;
+    font-size: 16px;
 }
 .contact-id{
     color:#d64fe2;
-    font-size: 20px;
+    font-size: 14px;
     font-family: 'Noto Sans', sans-serif;
 }
 .title-of-footer{
-    font-size: 26px;
+    font-size: 18px;
     font-family: 'Noto Sans', sans-serif;
     color: #695b8f;
     text-align: center;
@@ -134,15 +143,17 @@ p{
 background-color: #695b8f;
 text-decoration: none;
 color: white;
-font-size: 20px;
+font-size: 16px;
 font-weight: 700;
 font-family: 'Noto Sans', sans-serif;
-padding:18px;
-margin-top: 20px;
+padding:10px;
+
 }
 .goToTopCTA a:hover{
     background-color: #d64fe2;
 }
 .goToTopCTA{
 text-align: center;
+margin-top: 15px;
+margin-bottom: 40px;
 }
