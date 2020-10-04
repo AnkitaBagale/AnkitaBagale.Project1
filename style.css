@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    color: #695b8f;
+    background-color:rgb(210, 234, 238);
+    font-family: 'Noto Sans', sans-serif;
+}
+.logo{
+    font-size: 24px;
+    letter-spacing: 2px;
+    border: #695b8f solid;
+    background-color:#dcbedf;
+    padding: 5px 7px 5px 7px;
+}
+.logo a{
+    text-decoration: none;
+    color: #695b8f;
+}
+
+
+.Nav-Links{
+    display: flex;
+    width:60%;
+    justify-content: space-around;
+    font-size: 22px;
+    list-style-type: none;
+    
+}
+.Nav-Links a{
+    font-weight: bold;
+    
+}
+
+.Nav-Links a:link, .Nav-Links a:visited {
+    text-decoration: none;
+    color: #695b8f;
+}
+.Nav-Links a:hover, .Nav-Links a:active{
+    color:#d64fe2;
+    text-decoration: underline;
+}
+
+
+.video h2{
+    width: 60%;
+    display: block;
+    margin: 0px auto;
+    margin-top: 40px;
+    padding: 20px 10px;
+    font-size: 22px;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 36px;
+    color:#d64fe2;
+    background-color:rgb(210, 234, 238);
+
+}
+.video iframe{
+display: block;
+margin: 0 auto;
+border: solid black;
+}
+.para{
+margin-bottom: 60px;
+}
+
+.para P
+{
+    margin: 10px 100px;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: justify;
+}
+
+p{
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.para h2
+{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px 0;
+    background-color:rgb(210, 234, 238);
+    width: 100%;
+    color: #695b8f;
+    background-color:#dcbedf;
+    border: #695b8f solid;
+}
+.contact{
+    min-height: 150px;
+    background-color:rgb(210, 234, 238);
+}
+.contact-ankita{
+    margin: 40px 0px;
+    padding: 40px 0px;
+}
+.list-contacts{
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    list-style-type: none;
+    
+}
+.label{
+    color: #695b8f;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 22px;
+}
+.contact-id{
+    color:#d64fe2;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.title-of-footer{
+    font-size: 26px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #695b8f;
+    text-align: center;
+    padding-bottom: 30px;
+   
+}
+
+.goToTopCTA a {
+background-color: #695b8f;
+text-decoration: none;
+color: white;
+font-size: 20px;
+font-weight: 700;
+font-family: 'Noto Sans', sans-serif;
+padding:18px;
+margin-top: 20px;
+}
+.goToTopCTA a:hover{
+    background-color: #d64fe2;
+}
+.goToTopCTA{
+text-align: center;
+}
