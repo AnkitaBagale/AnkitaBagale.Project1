@@ -8,14 +8,14 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    color: #695b8f;
-    
+    color: #695b8f;  
     background-color:rgb(210, 234, 238);
     font-family: 'Noto Sans', sans-serif;
     position: fixed;
-    top:0;
-  width: 100%;
+    top:0px;
+    width: 100%;
 }
+
 .logo{
     border: #695b8f solid;
     background-color:#dcbedf;
@@ -56,7 +56,15 @@ nav{
     text-decoration: underline;
 }
 
-
+.Burger div{
+    height: 3px;
+    width: 25px;
+    background-color: #695b8f;  
+    margin:4px;
+}
+.Burger{
+    display: none;
+}
 .video h2{
     width: 60%;
     display: block;
@@ -156,4 +164,94 @@ padding:10px;
 text-align: center;
 margin-top: 15px;
 margin-bottom: 40px;
+}
+
+
+
+@media screen and (max-width:768px)
+{   .body{
+    margin: 0;
+    overflow-x: hidden;
+    }
+    .Nav-Links{
+        position: absolute;
+        right: 0px;
+        height: 50vh;
+        top: 8vh;
+        width:50%;
+        background-color:rgb(210, 234, 238);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .Nav-Active{
+        transform: translateX(0%);
+    }
+    
+    .Burger{
+        display: block;
+    }
+    .Nav-Links li{
+        opacity: 0;
+    }
+    @keyframes navLinksFade{
+        from{
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+
+    .toggle .line1{
+        transform: rotate(-45deg) translate(-5px, 5px);
+    }
+    .toggle .line2{
+       opacity: 0;
+    }
+    .toggle .line3{
+        transform: rotate(45deg) translate(-5px, -5px);;
+    }
+
+    .video iframe{
+        display: block;
+        margin: 0;
+        width: 100%;
+        height: 230px;
+        border: solid black;
+        }
+    .video h2{
+        width:100%;
+        margin-top: 100px;
+    }
+    .para p{
+        margin: 15px 20px;
+    }
+    footer{
+        max-resolution: ;
+    }
+    .list-contacts{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 15px 20px;
+        text-align: center;
+    }
+    .list-contacts h4{
+        margin-bottom: 20px;
+    }
+    .contact-ankita{
+    
+        padding: 0px 0px;
+    }
+    .title-of-footer{
+        text-align: center;
+        padding: 35px 20px 10px 20px;
+       
+    }
+
 }
